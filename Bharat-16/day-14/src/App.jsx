@@ -1,0 +1,14 @@
+import React, { useState } from "react";
+import Login from "./components/Login";
+
+function App() {
+  const [user, setUser] = useState(null);
+
+  return (
+    <div className="App">
+      {user ? <h1>Welcome, {user.email}</h1> : <Login onLogin={setUser} />}
+    </div>
+  );
+}
+
+export default App;
