@@ -22,7 +22,839 @@
   from {
     transform: rotate(0deg);
   }
-  to {
+  to {Skip to content
+  You said:
+  #root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  
+  .card {
+    padding: 2em;
+  }
+  
+  .read-the-docs {
+    color: #888;
+  }
+  modify simple
+  
+  ChatGPT said:
+  Got it, Sibu 👍
+  Here’s a simple, clean modification—no over-engineering, just a bit more modern and neat.
+  
+  What I changed (very minimal):
+  Slightly softer spacing
+  
+  Smoother hover effect
+  
+  Cleaner card look
+  
+  Kept everything beginner-friendly
+  
+  #root {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  /* Logo */
+  .logo {
+    height: 5em;
+    padding: 1em;
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+  
+  .logo:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 1.5em #646cffaa);
+  }
+  
+  .logo.react:hover {
+    filter: drop-shadow(0 0 1.5em #61dafbaa);
+  }
+  
+  /* Spin animation */
+  @keyframes logo-spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin 20s linear infinite;
+    }
+  }
+  
+  /* Card */
+  .card {
+    padding: 1.5em;
+    margin-top: 1rem;
+    border-radius: 12px;
+    background: #f9f9f9;
+  }
+  
+  /* Docs text */
+  .read-the-docs {
+    color: #777;
+    font-size: 0.9rem;
+  }
+  If you want:
+  
+  🌙 dark mode
+  
+  🎨 React/Vite theme colors
+  
+  📱 better mobile spacing
+  
+  Just say the word and I’ll tweak it without breaking your setup.
+  
+  You said:
+  git add.
+  PS E:\Group-Learning> git add.                                      
+  git: 'add.' is not a git command. See 'git --help'.
+  
+  The most similar command is
+          add
+  ChatGPT said:
+  Haha, tiny typo — Git is being very literal here 😄
+  You just missed a space.
+  
+  ❌ What you typed
+  git add.
+  Git thinks add. is a command (which doesn’t exist).
+  
+  ✅ Correct command
+  git add .
+  👉 The space before the dot matters.
+  
+  . means current folder (all files & folders)
+  
+  Quick reminder
+  git status     # check what will be added
+  git add .      # stage everything
+  git commit -m "your message"
+  git push
+  You’re doing fine, Sibu — this is a super common beginner slip.
+  If you want, I can also give you a 1-line Git cheat sheet to avoid these errors forever 🚀
+  
+  You said:
+  #root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  
+  .card {
+    padding: 2em;
+  }
+  
+  .read-the-docs {
+    color: #888;
+  }
+  modify simple
+  no comment
+  ChatGPT said:
+  #root {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .logo {
+    height: 5em;
+    padding: 1em;
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+  
+  .logo:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 1.5em #646cffaa);
+  }
+  
+  .logo.react:hover {
+    filter: drop-shadow(0 0 1.5em #61dafbaa);
+  }
+  
+  @keyframes logo-spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin 20s linear infinite;
+    }
+  }
+  
+  .card {
+    padding: 1.5em;
+    border-radius: 12px;
+  }
+  
+  .read-the-docs {
+    color: #777;
+  }
+  You said:
+  #root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  
+  .card {
+    padding: 2em;
+  }
+  
+  .read-the-docs {
+    color: #888;
+  }
+  simple modify
+  
+  ChatGPT said:
+  #root {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .logo {
+    height: 5.5em;
+    padding: 1.2em;
+    transition: filter 300ms ease;
+  }
+  
+  .logo:hover {
+    filter: drop-shadow(0 0 1.8em #646cffaa);
+  }
+  
+  .logo.react:hover {
+    filter: drop-shadow(0 0 1.8em #61dafbaa);
+  }
+  
+  @keyframes logo-spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin 18s linear infinite;
+    }
+  }
+  
+  .card {
+    padding: 1.8em;
+  }
+  
+  .read-the-docs {
+    color: #777;
+  }
+  You said:
+  #root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  
+  .card {
+    padding: 2em;
+  }
+  
+  .read-the-docs {
+    color: #888;
+  }
+  simple modify
+  
+  ChatGPT said:
+  #root {
+    max-width: 1250px;
+    margin: auto;
+    padding: 1.8rem;
+    text-align: center;
+  }
+  
+  .logo {
+    height: 5.8em;
+    padding: 1.3em;
+    transition: filter 300ms ease;
+  }
+  
+  .logo:hover {
+    filter: drop-shadow(0 0 1.9em #646cffaa);
+  }
+  
+  .logo.react:hover {
+    filter: drop-shadow(0 0 1.9em #61dafbaa);
+  }
+  
+  @keyframes logo-spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin 20s linear infinite;
+    }
+  }
+  
+  .card {
+    padding: 1.9em;
+  }
+  
+  .read-the-docs {
+    color: #777;
+  }
+  You said:
+  :root {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: inherit;
+  }
+  a:hover {
+    color: #535bf2;
+  }
+  
+  body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+  }
+  
+  button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+  button:hover {
+    border-color: #646cff;
+  }
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+  
+  @media (prefers-color-scheme: light) {
+    :root {
+      color: #213547;
+      background-color: #ffffff;
+    }
+    a:hover {
+      color: #747bff;
+    }
+    button {
+      background-color: #f9f9f9;
+    }
+  }
+  simple modify
+  
+  ChatGPT said:
+  :root {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.9);
+    background-color: #222;
+  
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  a {
+    font-weight: 500;
+    color: #6a6fff;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #5a5fff;
+  }
+  
+  body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    font-size: 3em;
+    line-height: 1.15;
+  }
+  
+  button {
+    border-radius: 10px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.3em;
+    font-size: 1em;
+    font-family: inherit;
+    background-color: #1c1c1c;
+    cursor: pointer;
+    transition: border-color 0.25s ease;
+  }
+  button:hover {
+    border-color: #6a6fff;
+  }
+  button:focus-visible {
+    outline: 3px auto -webkit-focus-ring-color;
+  }
+  
+  @media (prefers-color-scheme: light) {
+    :root {
+      color: #213547;
+      background-color: #fafafa;
+    }
+    a:hover {
+      color: #747bff;
+    }
+    button {
+      background-color: #f5f5f5;
+    }
+  }
+  You said:
+  git add.
+  PS E:\Group-Learning\Bharat-16\day-06> git add.                     
+  git: 'add.' is not a git command. See 'git --help'.
+  
+  The most similar command is
+          add
+  ChatGPT said:
+  Same thing again 🙂 — just remember the space.
+  
+  ❌ Wrong
+  git add.
+  ✅ Correct
+  git add .
+  That space before . is mandatory.
+  . = current folder (all files inside day-06).
+  
+  Quick flow:
+  
+  git status
+  git add .
+  git commit -m "Day-06: message"
+  git push
+  You’re on the right track, Sibu. This error means you’re practicing — keep going 💪
+  
+  You said:
+  #root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  
+  .card {
+    padding: 2em;
+  }
+  
+  .read-the-docs {
+    color: #888;
+  }
+  simple change
+  
+  ChatGPT said:
+  #root {
+    max-width: 1240px;
+    margin: auto;
+    padding: 1.7rem;
+    text-align: center;
+  }
+  
+  .logo {
+    height: 5.7em;
+    padding: 1.4em;
+    transition: filter 300ms ease;
+  }
+  
+  .logo:hover {
+    filter: drop-shadow(0 0 1.7em #646cffaa);
+  }
+  
+  .logo.react:hover {
+    filter: drop-shadow(0 0 1.7em #61dafbaa);
+  }
+  
+  @keyframes logo-spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin 20s linear infinite;
+    }
+  }
+  
+  .card {
+    padding: 1.8em;
+  }
+  
+  .read-the-docs {
+    color: #777;
+  }
+  You said:
+  #root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  
+  .card {
+    padding: 2em;
+  }
+  
+  .read-the-docs {
+    color: #888;
+  }
+  simple change
+  
+  ChatGPT said:
+  #root {
+    max-width: 1260px;
+    margin: auto;
+    padding: 1.8rem;
+    text-align: center;
+  }
+  
+  .logo {
+    height: 5.9em;
+    padding: 1.4em;
+    transition: filter 300ms ease;
+  }
+  
+  .logo:hover {
+    filter: drop-shadow(0 0 1.8em #646cffaa);
+  }
+  
+  .logo.react:hover {
+    filter: drop-shadow(0 0 1.8em #61dafbaa);
+  }
+  
+  @keyframes logo-spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin 20s linear infinite;
+    }
+  }
+  
+  .card {
+    padding: 1.9em;
+  }
+  
+  .read-the-docs {
+    color: #777;
+  }
+  You said:
+  #root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  
+  .card {
+    padding: 2em;
+  }
+  
+  .read-the-docs {
+    color: #888;
+  }
+  simple change
+  
+  ChatGPT said:
+  #root {
+    max-width: 1270px;
+    margin: auto;
+    padding: 1.9rem;
+    text-align: center;
+  }
+  
+  .logo {
+    height: 5.9em;
+    padding: 1.4em;
+    transition: filter 300ms ease;
+  }
+  
+  .logo:hover {
+    filter: drop-shadow(0 0 1.9em #646cffaa);
+  }
+  
+  .logo.react:hover {
+    filter: drop-shadow(0 0 1.9em #61dafbaa);
+  }
+  
+  @keyframes logo-spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin 20s linear infinite;
+    }
+  }
+  
+  .card {
+    padding: 1.9em;
+  }
+  
+  .read-the-docs {
+    color: #777;
+  }
+  
+  
+  
+  No file chosenNo file chosen
+  ChatGPT can make mistakes. Check important info. See Cookie Preferences.
+  
     transform: rotate(360deg);
   }
 }
